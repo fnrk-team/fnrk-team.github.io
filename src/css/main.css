@@ -1,0 +1,75 @@
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+/*        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+        
+            50% {
+                background-position: 100% 50%;
+            }
+        
+            100% {
+                background-position: 0% 50%;
+            }
+        }*/
+.logo {
+  background-image: url('../../media/img/logo.jpg');
+}
+.nav_position {
+  position: fixed;
+  top: -100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+.naw-wrapper {
+  position: fixed;
+  top: -100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  max-width: 100%;
+  max-height: 15%;
+  border-radius: 2%;
+  /* Радиус скругления */
+  box-shadow: 0px 0px 20px;
+}
+/* Параметры тени */
+/*    background-position: center center;
+    background-attachment: fixed;      
+    border: 0px solid #FFFA00;
+    background-size: cover;   
+    @onecolor: #FFF600;
+    @twocolor: #111;
+    background: -webkit-gradient(linear, left top, left bottom, from(@onecolor, to(@twocolor)));
+   background: -moz-linear-gradient(top, @twocolor,  @onecolor); */
+p {
+  font-size: 10px ;
+  font-weight: 700;
+  font-family: "Comfortaa", cursive;
+  color: #80FF25;
+}
+.img {
+  margin: 10px;
+  padding: 0;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  /* Радиус скругления */
+  border: 0.1px solid #0000;
+  /* Параметры рамки */
+  box-shadow: 0px 0px 30px ;
+  /* Параметры тени */
+}
+.img img {
+  max-width: 100%;
+  max-height: 100%;
+}
